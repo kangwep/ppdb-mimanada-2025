@@ -3,7 +3,7 @@ import { Readable } from 'stream';
 import path from 'path';
 
 /**
- * Decode base64 and parse JSON to get service account credentials
+ * Decode base64 and parse JSON to get service account credentials base64
  */
 function getGoogleCredentials() {
   const base64 = process.env.GOOGLE_SERVICE_ACCOUNT_BASE64;
